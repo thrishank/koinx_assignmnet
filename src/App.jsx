@@ -1,13 +1,13 @@
-import { Team_Card } from "./components/teamcard";
 import { Navbar } from "./ui/Navbar";
+import { Fundamnetals } from "./ui/fundamentals";
+import { Trending } from "./ui/trending";
 
 function App() {
   return (
     <>
-      <div>
-        <Navbar />
-        <Team_Card name={"thrishank"} desgination={"Sr Enginner"} />
-      </div>
+      {/* <Navbar /> */}
+      {/* <Trending /> */}
+      <Fundamnetals />
     </>
   );
 }
